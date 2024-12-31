@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Savchenko Dmytro 1mld</title>
+    
+    
+</head>
+<body>
+    <h2>Domáce úlohy</h2>
+
+    <div class="grid-container">
+        <div class="grid-item" onclick="showContent(1)"> Úloha 1</div>
+        <div class="grid-item" onclick="showContent(2)"> Úloha 2</div>
+        <div class="grid-item" onclick="showContent(3)"> Úloha 3</div>
+        <div class="grid-item" onclick="showContent(4)"> Úloha 4</div>
+        <div class="grid-item" onclick="showContent(5)"> Úloha 5</div>
+        <div class="grid-item" onclick="showContent(6)"> Úloha 6</div>
+    </div>
+    
+    <div id="content-1" class="content">
+    <a href="/Algorytmy/index.html" class="green-button">Algorytmy</a>
+  
+
+</div>
+<div id="content-2" class="content">
+        
+    <a href="/Boeing/index.html" class="green-button">Algorytmy</a>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div id="content-3" class="content">
+          
+           
+            
+     
+        <!-- Перевірте шляхи до кожного зображення у href -->
+        <!-- <area shape="rect" coords="20,120,150,30" href="CSS/vrtulniky/mi-8.jpg" alt="Mi-8">
+        <area shape="rect" coords="168,119,300,30" href="CSS/vrtulniky/mi-2.jpg" alt="Mi-2">
+        <area shape="rect" coords="26,231,145,142" href="CSS/vrtulniky/mi-24.jpg" alt="Mi-24">
+        <area shape="rect" coords="163,223,305,151" href="CSS/vrtulniky/mi-17.jpg" alt="Mi-17">
+    </map>
+        -->
+           
+      
+              
+        <div class="top-bar">
+          
+            <h1>Mapa vrtuľníki</h1>
+        </div>
+    
+        <div class="gallery-container">
+            <p class="photo-title">Helikoptéry</p>
+    
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="CSS/vrtulniky/mi-8.jpg" onclick="openFullscreen(this)">
+                    <div class="caption">MI-8</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="CSS/vrtulniky/mi-2.jpg" onclick="openFullscreen(this)">
+                    <div class="caption">MI-2</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="CSS/vrtulniky/mi-24.jpg" onclick="openFullscreen(this)">
+                    <div class="caption">MI-24</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="CSS/vrtulniky/mi-17.jpg" onclick="openFullscreen(this)">
+                    <div class="caption">MI-17</div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="fullscreen" id="fullscreen" onclick="closeFullscreen()">
+            <img id="fullscreen-img" src="" alt="Enlarged Image">
+        </div>
+    
+        <script>
+            function openFullscreen(img) {
+                const fullscreen = document.getElementById("fullscreen");
+                const fullscreenImg = document.getElementById("fullscreen-img");
+                fullscreenImg.src = img.src;
+                fullscreen.style.display = "flex";
+            }
+    
+            function closeFullscreen() {
+                const fullscreen = document.getElementById("fullscreen");
+                fullscreen.style.display = "none";
+            }
+        </script>
+                <style>
+                  
+                
+                    .top-bar {
+                        width: 100%;
+                        background-color: #333;
+                        color: #fff;
+                        padding: 15px;
+                        text-align: center;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        z-index: 10;
+                        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                
+                    .top-bar .button {
+                        position: absolute; /* Фиксированное положение для кнопки */
+                        left: 20px; /* Отступ от левого края */
+                        top: 15px; /* Отступ от верхнего края */
+                        color: white; /* Цвет текста кнопки */
+                        background-color: #333; /* Цвет фона кнопки */
+                        padding: 10px 15px; /* Отступы кнопки */
+                        border: none; /* Убираем рамку */
+                        border-radius: 5px; /* Закругленные углы */
+                        font-size: 18px; /* Размер шрифта */
+                        text-decoration: none; /* Убираем подчеркивание */
+                        transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход */
+                    }
+                
+                    .top-bar .button:hover {
+                        background-color: white; /* Цвет фона при наведении */
+                        color: black; /* Цвет текста при наведении */
+                    }
+                
+                    .top-bar h1 {
+                        margin: 0;
+                        font-size: 28px; 
+                    }
+                
+                    .gallery-container {
+                        margin-top: 100px; 
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                    }
+                
+                    .photo-title {
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+                
+                    .gallery {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 30px;
+                    }
+                
+                    .gallery-item {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                    }
+                
+                    .gallery-item img {
+                        width: 250px; 
+                        height: auto;
+                        cursor: pointer;
+                        transition: transform 0.3s ease;
+                    }
+                
+                    .gallery-item img:hover {
+                        transform: scale(1.1); 
+                    }
+                
+                    .caption {
+                        font-weight: bold;
+                        font-size: 20px; 
+                        margin-top: 10px;
+                    }
+                
+                    .fullscreen {
+                        display: none;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100vw;
+                        height: 100vh;
+                        background-color: rgba(50, 45, 45, 0.9);
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 20;
+                    }
+                
+                    
+                </style>
+          
+               
+               
+    
+    
+    
+    
+    
+    
+                
+        
+        </div>
+    
+        <div id="content-4" class="content">
+          
+    
+    
+    
+    
+    
+    
+            <a href="/Formular/index.php" class="green-button">Formular</a>
+            
+          
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+        </div>
+    
+        <div id="content-5" class="content">
+            <div class="container">
+                <!-- Left Column with Image and Professional Details -->
+                <div class="left-column">
+                    <img src="CSS/Foto/Môj autoportrét.JPG" alt="Pilot Picture">
+                    <h2>PROFESSIONAL DETAILS</h2>
+                    <div class="details">
+                        <p><strong>NAME</strong> Dmytro Savchenko</p>
+                        <p><strong>AGE</strong> 18 Years</p>
+                        <p><strong>LOCATION</strong> Košice, Slovakia</p>
+                        <p><strong>EXPERIENCE</strong> 3 Year</p>
+                      
+                    </div>
+                </div>
+            
+                <!-- Right Column with About Me Section -->
+                <div class="right-column">
+                    <div class="about-me">
+                        <h2>ABOUT ME</h2>
+                        <p><strong>NAME</strong> Dmytro Savchenko</p>
+                        <p><strong>LOCATION</strong> Košice, Slovakia</p>
+                        <p><strong>WEBSITE</strong> <a href="https://salo.li/27A6E6b" class="website">https://salo.li/27A6E6b</a></p>
+                        <p><strong>AGE</strong> 18 Years</p>
+                        <p><strong>EXPERIENCE</strong> 3 Year</p>
+                        <p><strong>CAREER LEVEL</strong> Mid-Level</p>
+                        <p><strong>PHONE</strong> 094 4542 529</p>
+                        <p><strong>E-MAIL</strong> dimasavchenko201355@gmail.com</p>
+                    </div>
+                    <div class="description">
+                        <h2>I'M KAMERAMAN</h2>
+                        <p>I have been professionally engaged in video and photo shooting for 3 years. I make shots that will be remembered for a long time for their vivid emotions. Short films and music videos are also in my portfolio</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <style>
+                .container {
+                    display: flex;
+                    max-width: 900px;
+                    margin: 20px auto;
+                    background-color: #ffffff;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                .left-column {
+                    background-color: #e5e5e5;
+                    padding: 20px;
+                    width: 40%; /* Збільшили ширину лівої колонки */
+                    text-align: center;
+                }
+                .left-column img {
+                    width: 100%; /* Зображення заповнює всю ширину колонки */
+                    aspect-ratio: 16 / 9; /* Співвідношення сторін 16:9 */
+                    border-radius: 4px;
+                }
+                .left-column h2, .right-column h2 {
+                    font-size: 1.2em;
+                    margin-bottom: 10px;
+                    color: #333;
+                }
+                .details {
+                    text-align: left;
+                    font-size: 0.9em;
+                    line-height: 1.5em;
+                }
+                .details p {
+                    margin: 5px 0;
+                }
+                .right-column {
+                    padding: 20px;
+                    width: 60%; /* Зменшили ширину правої колонки */
+                }
+                .about-me h2 {
+                    color: #333;
+                    font-size: 1.5em;
+                    margin-bottom: 10px;
+                }
+                .about-me .name, .about-me .location, .about-me .degree {
+                    font-weight: bold;
+                    margin-top: 5px;
+                }
+                .about-me .contact p {
+                    margin: 3px 0;
+                }
+                .about-me .website {
+                    color: #0000ee;
+                    text-decoration: none;
+                }
+                .description {
+                    font-size: 0.9em;
+                    color: #666;
+                    margin-top: 10px;
+                    line-height: 1.5em;
+                }
+            </style>
+            
+        </div>
+        <div id="content-6" class="content">
+            <a href="/Portfolio/" class="green-button">WEB SITE</a>
+
+</div>
+        <script>
+            function showContent(number) {
+                // Сховати всі контейнери з контентом
+                var contents = document.querySelectorAll('.content');
+                contents.forEach(content => content.classList.remove('active'));
+    
+                // Показати відповідний контейнер
+                var contentToShow = document.getElementById('content-' + number);
+                contentToShow.classList.add('active');
+            }
+        </script>
+    
+    </body>
+    </html>
+    
+    

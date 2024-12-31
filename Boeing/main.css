@@ -1,0 +1,17 @@
+
+       
+        body {
+            background-color: #E8DFCA; 
+            color: black; 
+            font-family: Arial, sans-serif; 
+        }
+        h1 {
+            color: red; 
+        }
+        a {
+            color: blue; 
+        }
+        footer {
+            font-size: 0.8em; 
+            margin-top: 20px; 
+        }

@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    .sree-krushnadevaraya-regular {
+        font-family: "Sree Krushnadevaraya", serif;
+        font-weight: 400;
+        color: black;
+      }
+      
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper {
+    background: rgb(240,240,240);
+    background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(212,215,215,1) 50%, rgba(162,164,164,1) 100%); 
+width: 100%;
+}
+
+.container{
+   
+    margin-left: 50px;
+    margin-right: 20;
+    
+}
+
+header{
+    padding: 20px 40px;
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header nav{
+    float:right;
+    width: 50%
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+display:inline-block
+}
+
+header nav ul li a {
+    color: #000;;
+}
+
+
+
+header nav ul li a:hover {
+   border-bottom: 2px solid #424242;
+}
+
+.hero{
+    padding-bottom: 100px;
+
+}
+.hero--info{
+    padding-top: 70px;
+}
+
+.hero--info h1{
+   font-size: 159px;
+   font-weight: 800;
+   
+}
+
+.hero img {
+  width: 1247px; 
+  height: 702px;
+    top: 50px;
+    right: 20px;
+}
+
+.infotwo {
+    position: absolute; 
+    top: 420px; 
+    left: 1350px; 
+    width: 300px; 
+    font-size: 35px; 
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+
+.photoframes{
+    width: 200px;
+ 
+    position: absolute;
+    right: 110px;
+    top: 160px;
+}
+
+.responsible{
+    width: 33px;
+    position: absolute;
+    right: 780px;
+    top: 50px;
+}
+.gallery{
+    width: 33px;
+    position: absolute;
+    right: 437px;
+    top: 50px;
+}
+.information{
+    width: 33px;
+    position: absolute;
+    right: 75px;
+    top: 50px;
+}
+
+header .LOGO{
+    width: 150px;
+}
+.img_15{
+width: 520px;
+margin-left: 50px;
+margin-top: 10px;
+}
+.img_16{
+    width: 520px;
+margin-left: 20px;
+}
+.img_17{
+    width: 520px;
+margin-left: 20px;
+
+}
+.img_20{
+    width: 520px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.img_18{
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img_21_2{
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img_DSCF9221{
+    
+    width: 1065px;
+    margin-left: 50px;
+    margin-top: 775px;
+}
+.img_DSCF9153{
+    position: absolute;
+    width: 1066px;
+    margin-left: -1065px;
+    margin-top: 150px;
+}
+.img_DSCF9209{
+    position: absolute;
+    width: 520px;
+    margin-left: 25px;
+    margin-top: 150px;
+}
+.img_DSCF9217{
+    position: absolute;
+    width: 520px;
+    margin-left: 25px;
+    margin-top: 1100px;
+}
+.img_44{
+    position: absolute;
+    width: 520px;
+    margin-left: -1065px;
+    margin-top: 1550px;
+}
+.img_45{
+    position: absolute;
+    width: 520px;
+    margin-left: 25px;
+    margin-top: 1550px;
+}
+
+.img_46{
+    
+    width: 520px;
+    margin-left: 595px;
+    margin-top: 172px;
+}
+.img_6{
+    position: absolute;
+    width: 520px;
+    margin-left: -1065px;
+    margin-top: 1350px;
+}
+
+.img_2{
+    position: absolute;
+    width: 520px;
+    margin-left: 25px;
+    margin-top: 1350px;
+}
+.img_4{
+    
+    width: 520px;
+    margin-left: 595px;
+    margin-top: 172px;
+}
+
+.img_3{
+    position: absolute;
+    width: 520px;
+    margin-left: -1065px;
+    margin-top: 1258px;
+}
+
+.img_7{
+    position: absolute;
+    width: 520px;
+    margin-left: 25px;
+    margin-top: 1258px;
+}
+.img_1{
+    
+    width: 520px;
+    margin-left: 595px;
+    margin-top: 172px;
+}
+
+
+
+.img_DSCF0332_1{
+    position: absolute;
+    width: 795px;
+    margin-left: -250px;
+    margin-top: 1105px;
+}
+
+.DSCF0617{
+    position: absolute;
+    width: 518px;
+    margin-left: 28px;
+    margin-top: 2130px;
+}
+
+.DSCF0784{
+    
+    width: 795px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.DSCF0897{
+    
+    width: 595px;
+    padding-left: 865px;
+    padding-top: 695px;
+}
+
+.DSCF0949{
+    
+    width: 795px;
+    margin-left: -1414px;
+    padding-top: -1435px;
+}
+.proba{
+    position: sticky;
+    top: 0;
+    z-index:7;
+    background: #ffffff;
+     }
+
+
+
+
+
+
+
+
+     .twoblock{
+        width: 1900px;
+        height: 800px;
+    }
+    .Lower_unit{
+        background-color: #565656;
+        
+    }
+    .info_lu{
+        background-color: #3d3d43;
+        width: 1900px;
+        height: 700px;
+        padding-top: 50px;
+    }
+    
+    .LOGO_downB{
+        width: 600px;
+        margin-top: 350px;
+        margin-left: 550px;
+    }
+    .down_text_gl{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 300px;
+        box-sizing: border-box; 
+        text-align: left; 
+       
+        color: #ffffff;
+    }
+    .insta{
+        position: absolute;
+        margin-top:100px;
+        margin-left:1300px ;
+        box-sizing: border-box; 
+        text-align: left; 
+       
+        color: #ffffff;
+    }
+    .down_link_to_services{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 300px;
+        box-sizing: border-box; 
+        text-align: left; 
+        text-decoration: underline rgb(255, 255, 255);
+        color: #ffffff;
+        a:visited {
+            color: white; 
+          }
+          a:active {
+            color: white; 
+          }
+    }
+    .down_link_to_gallery{
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 300px;
+        box-sizing: border-box; 
+        text-align: left; 
+        text-decoration: underline rgb(255, 255, 255);
+        color: #ffffff;
+        a:visited {
+            color: white; 
+          }
+          a:active {
+            color: white; 
+          }
+    }
+    .link_to_information{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 300px;
+    box-sizing: border-box; 
+    text-align: left; 
+    text-decoration: underline rgb(255, 255, 255);
+    color: #ffffff;
+    a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+    }
+    .website{
+        position: absolute;
+        margin-top:50px;
+        margin-left:-72px ;
+        box-sizing: border-box; 
+        text-align: left; 
+        text-decoration: underline rgb(255, 255, 255);
+        color: #ffffff;
+    }
+
+.block_width{
+    height:100px ;
+  
+}

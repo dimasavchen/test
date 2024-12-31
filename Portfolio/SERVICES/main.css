@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    .sree-krushnadevaraya-regular {
+        font-family: "Sree Krushnadevaraya", serif;
+        font-weight: 400;
+        color: black;
+      }
+      
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 63%, rgba(191,199,198,1) 100%);
+width: 100%;
+}
+
+.container{
+   
+    margin-left: 50px;
+    margin-right: 20;
+    
+}
+
+header{
+    padding: 20px 40px;
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header nav{
+    float:right;
+    width: 50%
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+display:inline-block
+}
+
+header nav ul li a {
+    color: #000;;
+}
+
+
+
+header nav ul li a:hover {
+   border-bottom: 2px solid #424242;
+}
+
+.hero{
+    padding-bottom: 100px;
+
+}
+.hero--info{
+    padding-top: 70px;
+}
+
+
+
+.hero img {
+  width: 1247px; 
+  height: 702px;
+    top: 50px;
+    right: 20px;
+}
+.photo_1_s{
+    
+    width: 550px;
+    margin-left: 1000px;
+}
+
+.photo_3_s{
+    margin-top: 100px;
+    width: 550px;
+    margin-left: 1000px;
+}
+
+.infotwo {
+    position: absolute; 
+    top: 260px; 
+    left: 100px; 
+    font-size: 48px;
+    font-weight: 800;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+.info_2{
+    position: absolute; 
+    top: 1300px; 
+    left: 100px; 
+    font-size: 48px;
+    font-weight: 800;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+
+.info_3{
+    position: absolute; 
+    top: 2540px; 
+    left: 100px; 
+    font-size: 48px;
+    font-weight: 800;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+
+.photoframes{
+    width: 200px;
+ 
+    position: absolute;
+    right: 110px;
+    top: 160px;
+}
+
+.responsible{
+    width: 33px;
+    position: absolute;
+    right: 780px;
+    top: 50px;
+}
+.gallery{
+    width: 33px;
+    position: absolute;
+    right: 437px;
+    top: 50px;
+}
+.information{
+    width: 33px;
+    position: absolute;
+    right: 75px;
+    top: 50px;
+}
+
+header .LOGO{
+    width: 150px;
+}
+
+.creative_direction_photo{
+    width: 900px;
+    margin-left: 750px;
+    margin-top: 110px;
+    aspect-ratio: 4 / 5; 
+    overflow: hidden; 
+}
+.creative_direction_photo {
+   
+    height: auto; 
+    object-fit: cover;
+    object-position: bottom; 
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 250px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1); 
+}
+
+.caption {
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.twoblock{
+    width: 1900px;
+    height: 800px;
+}
+.Lower_unit{
+    background-color: #565656;
+    
+}
+.info_lu{
+    background-color: #3d3d43;
+    width: 1900px;
+    height: 700px;
+    padding-top: 50px;
+}
+
+.LOGO_downB{
+    width: 600px;
+    margin-top: 350px;
+    margin-left: 550px;
+}
+.down_text_gl{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    box-sizing: border-box; 
+    text-align: left; 
+   
+    color: #ffffff;
+}
+.insta{
+    position: absolute;
+    margin-top:100px;
+    margin-left:1300px ;
+    box-sizing: border-box; 
+    text-align: left; 
+  
+    color: #ffffff;
+}
+.down_link_to_services{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 300px;
+    box-sizing: border-box; 
+    text-align: left; 
+    text-decoration: underline rgb(255, 255, 255);
+    color: #ffffff;
+    a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+}
+.down_link_to_gallery{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 300px;
+    box-sizing: border-box; 
+    text-align: left; 
+    text-decoration: underline rgb(255, 255, 255);
+    color: #ffffff;
+    a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+}
+.link_to_information{
+position: absolute;
+margin-top: 190px;
+margin-left: 300px;
+box-sizing: border-box; 
+text-align: left; 
+text-decoration: underline rgb(255, 255, 255);
+color: #ffffff;
+a:visited {
+    color: white; 
+  }
+  a:active {
+    color: white; 
+  }
+}
+.website{
+    position: absolute;
+    margin-top:50px;
+    margin-left:-72px ;
+    box-sizing: border-box; 
+    text-align: left; 
+    text-decoration: underline rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.proba{
+    position: sticky;
+    top: 0;
+    z-index:7;
+    background: #ffffff;
+ }
+
+.text_1{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute; 
+    top: 800px; 
+    left: 100px; 
+    width: 500px; 
+    font-size: 15px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #565656;
+}
+.package{
+    position: absolute;
+    top: -30px;
+}
+.upblock_width_1{
+    width: 1900px;
+    height: 100px;
+}
+.cost_1{
+    font-family: 'Courier New', Courier, monospace;
+   
+    margin-top: 40px; 
+    margin-left: 170px; 
+    width: 500px; 
+    font-size: 30px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #dbdbdb;
+      a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+}
+.button_1{
+   position: absolute;
+    top: 140px;
+    left: -10px;
+    width: 400px;
+    height: 100px;
+    background: #292929;
+}
+
+
+
+
+.text_2{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute; 
+    top: 1800px; 
+    left: 100px; 
+    width: 500px; 
+    font-size: 15px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #565656;
+}
+.package_2{
+    position: absolute;
+    top: -30px;
+}
+.upblock_width_2{
+    width: 1900px;
+    height: 100px;
+}
+.cost_2{
+    font-family: 'Courier New', Courier, monospace;
+   
+    margin-top: 40px; 
+    margin-left: 170px; 
+    width: 500px; 
+    font-size: 30px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #dbdbdb;
+      a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+}
+.button_2{
+   position: absolute;
+    top: 180px;
+    left: -10px;
+    width: 400px;
+    height: 100px;
+    background: #292929;
+}
+
+
+.photo_2_s{
+    position: absolute;
+    top: 1300px;
+    width: 550px;
+    margin-left: 1000px;
+}
+
+
+
+.text_3{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute; 
+    top: 2900px; 
+    left: 100px; 
+    width: 500px; 
+    font-size: 15px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #565656;
+}
+.package_3{
+    position: absolute;
+    top: -30px;
+}
+.upblock_width_3{
+    width: 1900px;
+    height: 100px;
+}
+.cost_3{
+    font-family: 'Courier New', Courier, monospace;
+   
+    margin-top: 40px; 
+    margin-left: 170px; 
+    width: 500px; 
+    font-size: 30px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #dbdbdb;
+      a:visited {
+        color: white; 
+      }
+      a:active {
+        color: white; 
+      }
+}
+.button_3{
+   position: absolute;
+    top: 180px;
+    left: -10px;
+    width: 400px;
+    height: 100px;
+    background: #292929;
+}
+.block_width{
+    height:100px ;
+  
+}

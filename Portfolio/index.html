@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="proba">
+    <header class="container">
+        <span>
+            <img class="LOGO" src="CSS/photos/LOGO_1.svg" alt="CSS/photos/LOGO_1">
+        </span>
+        <nav>
+            <ul>
+                <li class="active"><a href="SERVICES">SERVICES</a></li>
+                <img class="responsible" src="CSS/photos/responsible.png" alt="CSS/photos/responsible.png">
+                <li><a href="GALLERY">GALLERY</a></li>
+                <img class="gallery" src="CSS/photos/gallery.png" alt="CSS/photos/gallery.png">
+                <li><a href="INFORMATION">INFORMATION</a></li>
+                <img class="information" src="CSS/photos/information.png" alt="CSS/photos/information.png">
+            </ul>
+        </nav>
+    </header>
+</div>
+    <div class="wrapper">
+    <div class="hero container">
+        <div class="hero--info">
+            <h1>Stories in Frames</h1>
+            <h3> <span class="infotwo">Photography and Videography by Dmytro Savchenko</span> </h3>
+        </div>
+        <img src="CSS/photos/2.jpg" alt="CSS/photos/2.jpg">
+       
+    </div>
+    <img class="photoframes" src="CSS/photos/3.png" alt="CSS/photos/3.png">
+
+    <div style="height: 2px;background-color: rgb(45, 45, 45);"></div>
+
+    <div class="creative direction">
+
+<div class="creative_direction_photo">
+   
+    <img src="CSS/first page photo/1.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo2">
+   
+    <img src="CSS/first page photo/30.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo3">
+   
+    <img src="CSS/first page photo/15.JPG" onclick="openFullscreen(this)">
+             
+</div>
+
+<div class="creative--info">
+    <h1> CREATIVE DIRECTION</h1>
+    <h3> <span class="detail_text1h">Photography transforms the intangible into something real, while adding wonder to the everyday. Keep your vision clear, trust your instincts, and don’t overcomplicate the process. Your story is constantly unfolding, and your site will grow along with it. Focus on what feels right in this moment, and let the future evolve on its own.</span> </h3>
+    <p class="link_to_gallery"><a href="GALLERY"> → View full gallery</a></p>
+</div>
+
+<div class="line_2" style="height: 2px;background-color: rgb(45, 45, 45);"></div>
+<div class="creative_direction_photo_4">
+   
+    <img src="CSS/first page photo/45.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo_5">
+   
+    <img src="CSS/first page photo/33.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo_6">
+   
+    <img src="CSS/first page photo/46.JPG" onclick="openFullscreen(this)">
+             
+</div>
+    
+<div class="creative--info_2">
+    <h1> TONES </h1>
+    <h3> <span class="detail_text_2h">Tones in photography are like the mood of a story, shaping how we feel about what we see. Whether it’s the warmth of golden light or the cool stillness of shadows, each tone creates an atmosphere that speaks beyond the subject itself. Embrace the subtle shifts in light and color—these are the elements that give depth and emotion to your images, transforming them from simple captures into something truly evocative.</span> </h3>
+    
+<p class="link_to_gallery_2"><a href="GALLERY"> → View full gallery</a></p>
+
+
+<div class="line_3" style="height: 2px;background-color: rgb(45, 45, 45);"></div>
+<div class="creative_direction_photo_7">
+   
+    <img src="CSS/first page photo/21.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo_8">
+   
+    <img src="CSS/first page photo/10.JPG" onclick="openFullscreen(this)">
+             
+</div>
+<div class="creative_direction_photo_9">
+   
+    <img src="CSS/first page photo/12.JPG" onclick="openFullscreen(this)">
+             
+</div>
+    
+<div class="creative--info_3">
+    <h1> STORIES </h1>
+    <h3> <span class="detail_text_3h">Every photograph holds a story, a moment frozen in time that speaks beyond what we see. It's not just about capturing an image—it's about capturing emotion, atmosphere, and the essence of the subject. Don’t chase perfection; instead, let the story unfold naturally through your lens. Each shot is a chapter, and together they create a narrative that will continue to resonate long after the moment has passed.</span> </h3>
+   
+<p class="link_to_gallery_3"><a href="GALLERY"> → View full gallery</a></p>
+
+
+
+
+</div>
+<div class="twoblock">
+
+   
+<div class="Lower_unit">
+    
+       
+<div class="info_lu">
+    <p class="down_text_gl"> <strong>SITE MAPE</strong></p>
+    
+    <p class="down_link_to_services"><a href="SERVICES">SERVICES</a></p>
+                    
+       <p class="down_link_to_gallery"><a href="GALLERY">GALLERY</a></p>
+                  
+        <p class="link_to_information"><a href="INFORMATION">INFORMATION</a></p>
+        <p class="insta"><strong>FOLLOW</strong> <a href="https://salo.li/27A6E6b" class="website">INSTAGRAM</a></p>
+
+    <img class="LOGO_downB" src="CSS/photos/LOGO_1.svg" alt="CSS/photos/LOGO_1">
+
+    
+                    
+              
+</div>
+</div>
+</div>
+<div class="Lower_unit"></div>
+
+</body>
+<div class="fullscreen" id="fullscreen" onclick="closeFullscreen()">
+    <img id="fullscreen-img" src="" alt="Enlarged Image">
+</div>
+
+<script>
+    function openFullscreen(img) {
+        const fullscreen = document.getElementById("fullscreen");
+        const fullscreenImg = document.getElementById("fullscreen-img");
+        fullscreenImg.src = img.src;
+        fullscreen.style.display = "flex";
+    }
+
+    function closeFullscreen() {
+        const fullscreen = document.getElementById("fullscreen");
+        fullscreen.style.display = "none";
+    }
+</script>
+</html>
